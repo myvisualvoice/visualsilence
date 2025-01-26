@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face { 
+    font-family: myHeader;
+    src: url(../fonts/OpenSans-Semibold.ttf); 
+}
+
+@font-face { 
+    font-family: mySecondHeader;
+    src: url(../fonts/le_amatcky.otf); 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: Tahoma, sans-serif;
+    background-color: #494949;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 97%;
+    left: 1.5%;
+    margin: 0 auto;
+    padding: 2% 0 0 0;
+    background-color: #494949;
+}
+
+#header {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0.5% 2%;    
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: #333;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-family: myHeader;
+    letter-spacing: 0.02em;
+    color: #b0e237;
+    width: 75%;
+    float: right;
+    text-align: right;
+}
+
+h1 > span {
+    padding-left: 1.1%;
+    font-family: mySecondHeader;
+    color: #fb90b3;
+    font-size: 60%;
+    letter-spacing: 0.3em;
+    font-style: italic;
+    line-height: 0;
+}
+
+main {
+    width: 97%;
+    max-width: 1000px;
+    margin: 15% auto 0 auto;
+}
+
+footer {
+    margin: 4.5% 0 0 0;
+    padding: 0 0 3.5% 0;
+    font-weight: 700;
+    font-size: 90%;
+    text-align: center;
+}
+
+footer span:first-of-type {
+    color: red;
+    color: rgba(226, 17, 17, 0.93);
+    font-size: 150%;
+}
+
+footer span:nth-of-type(2) {
+    color: violet;
+}
+
+footer span:nth-of-type(3) {
+    color: violet;
+}
+
+small {
+    letter-spacing: 0.7em;
+    letter-spacing: 0.55em;
+}

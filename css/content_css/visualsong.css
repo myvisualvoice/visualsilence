@@ -1,0 +1,18 @@
+/*
+    Visual Song
+*/
+
+h2 > span:first-of-type {
+    letter-spacing: 0.02em;
+    color: #b0e237;
+    font-style: italic;
+}
+
+h2 > span:last-of-type {
+/*    font-family: myHeader;*/
+    color: #fb90b3;
+    letter-spacing: 0.3em;
+    letter-spacing: 0.02em;
+/*    font-size: 60%;*/
+    font-style: italic;
+}
