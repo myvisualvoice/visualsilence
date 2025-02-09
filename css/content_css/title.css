@@ -1,5 +1,6 @@
-.lightbox {
-/*    border: 3px solid red;*/
+@font-face { 
+    font-family: lightbox;
+/*    src: url(../../fonts/OpenSans-BoldItalic.ttf); */
 }
 
 .lightbox .sign {
@@ -51,13 +52,22 @@
     color: #ffd700;
     background-color: blueviolet;
     font-weight: 900;
-    font-family: sans-serif;
     line-height: 155%;
 }
 
 time {
     color: #fff;
 }
+
+.what, .where, time {
+    letter-spacing: 2px;
+    letter-spacing: 0.1em;
+    font-family: sans-serif;
+    text-shadow: 3px 3px 4px #222;
+}
+
+/* - - - RESPONSIVE - - - */
+
 
 @media (max-width: 1000px) {
     
