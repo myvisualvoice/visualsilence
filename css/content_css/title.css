@@ -1,16 +1,13 @@
 @font-face { 
     font-family: lightbox;
-/*    src: url(../../fonts/OpenSans-BoldItalic.ttf); */
+    /* src: url(../../fonts/Steinerlight.ttf); */
 }
 
 .lightbox .sign {
-/*    width: 100%;*/
 	height: 90%;
 	position: absolute;
     right: 1.25%;
     padding-bottom: 1.5%;
-/*	top: -100%;*/
-/*    border: 5px solid blue;*/
 	/* Transition */
 	transition: all 1s ease;
 	-moz-transition: all 1s ease;
@@ -19,8 +16,8 @@
 	-webkit-transition: all 1s ease;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     justify-content: flex-end;
+/*    border: thin solid blue;*/
 }
 
 .lightbox:target .sign {
@@ -45,10 +42,6 @@
     display: inline-block;
     padding: 4% 2%;
     margin-bottom: 6%;
-/*
-    color: #fff;
-    background-color: #c71585;
-*/
     color: #ffd700;
     background-color: blueviolet;
     font-weight: 900;
@@ -60,11 +53,11 @@ time {
 }
 
 .what, .where, time {
-    letter-spacing: 2px;
     letter-spacing: 0.1em;
     font-family: sans-serif;
     text-shadow: 3px 3px 4px #222;
 }
+
 
 /* - - - RESPONSIVE - - - */
 
