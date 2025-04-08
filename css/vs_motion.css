@@ -1,0 +1,46 @@
+/*
+CSS Animations with delay for each child element
+https://stackoverflow.com/questions/8294400/css-animations-with-delay-for-each-child-element
+*/
+
+@keyframes FadeIn { 
+  0% {
+    opacity: 0;
+    transform: scale(.1);
+  }
+
+  85% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes FadeIn2 { 
+  0% {
+    opacity: 0;
+    transform: scale(.1);
+  }
+
+  85% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+h1 {
+  animation: FadeIn 1s linear;
+  animation-fill-mode: both;
+}
+
+h1 { animation-delay: .5s }
+.gallery img:first-of-type { animation-delay: 1s }
+
+.gallery a:first-of-type img {
+    animation: FadeIn2 1s linear;
+}

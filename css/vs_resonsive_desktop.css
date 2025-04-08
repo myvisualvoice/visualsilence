@@ -1,0 +1,74 @@
+@media (min-width: 1000px) {
+    
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 20%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #header {
+        display: flex;
+        height: 100%;
+        padding: 0 0 0 17.5%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    #header > .open {
+        position: absolute;
+        top: 8.75%;
+    }
+    
+    h1 {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        float: none;
+        text-align: center;
+        font-size: 340%;
+        letter-spacing: 0.02em;
+        position: fixed;
+        width: 13.5%;
+        bottom: 22.5%;
+        line-height: 85%;
+    }
+    
+    h1 > span {
+        display: block;
+        padding-left: 15%;
+        line-height: 0;
+        font-size: 57.5%;
+    }
+    
+    main {
+        min-width: 80%;
+        margin-top: 0;
+        margin-left: 20%;
+        padding-top: 1.25%;
+        background-color: #333;
+    }
+    
+    nav {
+        width: 120%;
+        padding-left: 25%;
+        padding-right: 6%;
+    }
+    
+    .gallery {
+        gap: 40px;
+    }
+    
+    .gallery img {
+        width: 360px;
+    }
+    
+    .gallery a:first-of-type img, .gallery a:nth-of-type(8) img, .gallery a:last-of-type img {
+        width: 760px;
+    }
+  
+}
+
